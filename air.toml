@@ -1,0 +1,10 @@
+# Config for Air (Live reloading)
+root = "."
+tmp_dir = "tmp"
+build_delay = 1000 # Delay before rebuilding (ms)
+
+[build]
+cmd = "go build -o ./tmp/main ."
+
+[run]
+cmd = "./tmp/main"
