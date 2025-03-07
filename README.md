@@ -25,7 +25,7 @@ Ensure you have the following installed:
 
 ### 2️⃣ Running the Project
 
-#### 💻 Option 1: Run with Dev Containers in VS Code
+#### 💻 Run with Dev Containers in VS Code
 
 1. Open the project in VS Code.
 2. When prompted, **"Reopen in Container"** (or manually open via `Ctrl + Shift + P` → `Reopen in Container`).
