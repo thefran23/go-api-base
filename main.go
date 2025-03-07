@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Testing reload again :)!")
+	fmt.Fprintf(w, "Initial setup for golang apis, containerised with hot-reloading.")
 }
 
 func main() {
