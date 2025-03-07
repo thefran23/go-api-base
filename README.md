@@ -29,4 +29,4 @@ Ensure you have the following installed:
 
 1. Open the project in VS Code.
 2. When prompted, **"Reopen in Container"** (or manually open via `Ctrl + Shift + P` → `Reopen in Container`).
-3. The container will start, and the Go API will run with hot-reloading.
+3. In the cli, run with `air`
