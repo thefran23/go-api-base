@@ -21,6 +21,8 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [8080],
 
+  "runArgs": ["--network=devcontainer-net"],
+
   // Uncomment the next line if you want start specific services in your Docker Compose config.
   // "runServices": [],
 
@@ -34,15 +36,15 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "golang.go",                  // Go language support
-        "mhutchie.git-graph",         // Git history visualization
-        "eamodio.gitlens",            // GitLens for better Git insights
-        "redhat.vscode-yaml",         // YAML support (for Docker, Kubernetes, CI/CD configs)
+        "golang.go", // Go language support
+        "mhutchie.git-graph", // Git history visualization
+        "eamodio.gitlens", // GitLens for better Git insights
+        "redhat.vscode-yaml", // YAML support (for Docker, Kubernetes, CI/CD configs)
         "ms-azuretools.vscode-docker", // Docker extension for managing containers
         "streetsidesoftware.code-spell-checker" // Spell checker extension
       ]
     }
-  },
+  }
 
   // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "devcontainer"
